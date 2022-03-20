@@ -31,6 +31,7 @@ const Home = (): JSX.Element => {
     return newSumAmount;
   }, {} as CartItemsAmount)
 
+  
 
   useEffect(() => {
     async function loadProducts() {
